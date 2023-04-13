@@ -14,13 +14,16 @@ public class MaxSumSubarray2 {
         for (int i = 0; i < nums.length; i++) {
             if(!set.add(nums[i])){
                 int dup=new ArrayList<Integer>(set).indexOf(nums[i]);
+                System.out.println(i+set.toString()+dup);
                 for (int j = i-k+1; j <= i-k+1+dup; j++) {
                     if(j>=0){
                         set.remove(nums[j]);
                         sum-=nums[j];
                     }
                 }
+                System.out.println(set.toString());
                 set.add(nums[i]);
+                System.out.println(set.toString());
             }
             else{
                 sum+=nums[i];
@@ -28,7 +31,7 @@ public class MaxSumSubarray2 {
             // System.out.println(i+set.toString()+sum);
             if(set.size()==k){
                 if(sum>maxSum)
-                    maxSum=sum;
+                maxSum=sum;
                 set.remove(nums[i-k+1]);
                 sum-=nums[i-k+1];
             }
