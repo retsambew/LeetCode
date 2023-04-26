@@ -1,5 +1,6 @@
 /*
  * 66. Plus One
+ * 
  */
 
 public class PlusOne {
