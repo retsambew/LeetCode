@@ -1,7 +1,6 @@
 /*
  * 1491. Average Salary Excluding the Minimum and Maximum Salary
  * Daily Problem - 1st may
- * 
  */
 
 public class AvgSalaryExcl {
