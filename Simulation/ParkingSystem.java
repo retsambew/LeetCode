@@ -4,6 +4,7 @@
 
 class ParkingSystem {
 
+<<<<<<< HEAD
     // int cars[];
 
     // public ParkingSystem(int big, int medium, int small) {
@@ -14,6 +15,8 @@ class ParkingSystem {
     // return cars[carType - 1]-- > 0;
     // }
 
+=======
+>>>>>>> e38761bacf201fd77387f6b1502d282865b12873
     private int big;
     private int medium;
     private int small;
