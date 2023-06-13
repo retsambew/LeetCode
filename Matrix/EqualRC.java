@@ -1,7 +1,6 @@
 /*
  * 2352. Equal Row and Column Pairs
  */
-
 public class EqualRC {
     public int equalPairs(int[][] grid) {
         Map<String, Integer> m = new HashMap<String, Integer>();
