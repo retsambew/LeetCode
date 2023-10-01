@@ -10,6 +10,7 @@ class Solution {
             else
                 temp=s.charAt(i)+temp;
         }
+        
         ans+=temp;
         return ans.trim();
     }
