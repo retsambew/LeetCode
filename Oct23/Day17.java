@@ -65,6 +65,7 @@ class Solution {
     }
 }
 
+
 // class Solution {
 //     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
 //         // conditions checked:
